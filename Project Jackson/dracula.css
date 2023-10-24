@@ -1,0 +1,90 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    background-color: #282a36; /* Fundo Dracula */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: #f8f8f2; /* Texto Dracula */
+}
+
+header {
+    width: 100%;
+    background-color: #44475a; /* Cor de cabeçalho Dracula */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    background-color: #6272a4; /* Cor da imagem Dracula */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f8f8f2; /* Cor da borda Dracula */
+    border-radius: 50%;
+}
+
+.img svg {
+    transform: scale(8);
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: #f8f8f2;
+}
+
+.redes {
+    background-color: #44475a;
+    width: 300px;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+section {
+    font-size: 24px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #50fa7b; /* Cor do link Dracula */
+    transition: ease all 0.7s;
+}
+
+section:hover {
+    color: #bd93f9; /* Cor do texto ao passar o mouse Dracula */
+    transform: scale(1.05);
+}
